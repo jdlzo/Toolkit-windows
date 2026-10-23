@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <!-- Versión nueva a comparar -->
+    <version>1.0.1.0</version>
+
+    <!-- Enlace directo de descarga (.exe, .msi, o ejecutable del instalador) -->
+    <url>https://mi-servidor.com/descargas/MiAppSetup_1.0.1.exe</url>
+
+    <!-- Página HTML opcional con las novedades o notas de versión -->
+    <changelog>https://mi-servidor.com/notas-de-version.html</changelog>
+
+    <!-- Pon 'true' si quieres forzar al usuario a actualizar antes de usar la app -->
+    <mandatory>false</mandatory>
+</item>
