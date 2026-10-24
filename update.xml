@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <!-- Versión nueva a comparar -->
     <version>1.0.1.0</version>
-
-    <!-- Enlace directo de descarga (.exe, .msi, o ejecutable del instalador) -->
-    <url>https://github.com/jdlzo/Toolkit-windows/releases/download/1.0.1.0/toolkit.zip</url>
-
-    <!-- Página HTML opcional con las novedades o notas de versión -->
+    
+    <url>https://github.com/jdlzo/Toolkit-windows/releases/latest/download/toolkit.zip</url>
+    
     <changelog>https://github.com/jdlzo/Toolkit-windows/releases/latest</changelog>
-
-    <!-- Pon 'true' si quieres forzar al usuario a actualizar antes de usar la app -->
+    
     <mandatory>false</mandatory>
+    
     <executable>Mantenimiento.exe</executable>
 </item>
