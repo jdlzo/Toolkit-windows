@@ -2,6 +2,7 @@ using System;
 using System.Drawing;
 using System.Runtime.ConstrainedExecution;
 using System.Windows.Forms;
+using AutoUpdaterDotNET;
 
 namespace Mantenimiento;
 
@@ -14,7 +15,16 @@ public partial class Form1 : Form
     {
         InitializeComponent();
         ConfigurarInterfaz();
+        VerificarActualizaciones();
     }
+    private void VerificarActualizaciones()
+        {
+            // Opcional: Si no especificas el changelog en el XML, puedes ocultarlo
+            // AutoUpdater.ShowSkipButton = false;
+
+            // Apunta a la URL de tu archivo XML remoto
+            AutoUpdater.Start("https://raw.githubusercontent.com/jdlzo/Toolkit-windows/refs/heads/main/update.xml");
+        }
 
     private void ConfigurarInterfaz()
     {
@@ -30,6 +40,7 @@ public partial class Form1 : Form
         this.Controls.Add(texto);
 
 
+
         Label ver = new Label();
         ver.Text="v1.0.0-beta";
         ver.Location = new Point(13,10);
@@ -39,6 +50,20 @@ public partial class Form1 : Form
         ver.AutoSize = true;
         this.Controls.Add(ver);
         
+        Button btnActualizar = new Button();
+        btnActualizar.Text = "Comprobar actualizaciones";
+        btnActualizar.Location = new Point(13, 40); // Ajusta la posición X e Y según necesites
+        btnActualizar.Size = new Size(160, 30);
+        btnActualizar.Cursor = Cursors.Hand;
+        
+        // Evento que se ejecuta al hacer clic en el botón
+        btnActualizar.Click += (sender, e) =>
+        {
+            // Reemplaza esta URL con el enlace Raw de tu Gist o tu archivo XML en GitHub
+            AutoUpdater.Start("https://raw.githubusercontent.com/jdlzo/Toolkit-windows/refs/heads/main/update.xml");
+        };
+
+        this.Controls.Add(btnActualizar);
 
 
         this.Controls.Add(CrearLabel("Sistema y Limpieza", 40, 70));

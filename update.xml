@@ -11,4 +11,5 @@
 
     <!-- Pon 'true' si quieres forzar al usuario a actualizar antes de usar la app -->
     <mandatory>false</mandatory>
+    <executable>Mantenimiento.exe</executable>
 </item>
