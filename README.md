@@ -2,4 +2,10 @@
 
 ### Decargar las herramientas
 
-* <a href='https://drive.google.com/file/d/1stNoLpr6R-nnT8cASecE94nYhJTkXHBG/view?usp=sharing'> <h3>Herramientas.rar</h3></a>
+<ul>
+  <li>
+    <a href="https://drive.google.com/file/d/1stNoLpr6R-nnT8cASecE94nYhJTkXHBG/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      Herramientas.rar
+    </a>
+  </li>
+</ul>
