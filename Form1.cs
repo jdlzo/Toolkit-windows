@@ -82,9 +82,9 @@ public partial class Form1 : Form
         this.Controls.Add(CrearBoton("Desabilitar WindowsUpdate",40,390,DesabilitarWindUpdate));
 
         //Botones Hardware
-        this.Controls.Add(CrearBoton("HWinfox64", 250, 110, HWinfo));
+        this.Controls.Add(CrearBoton("Libre Hardware Monitor", 250, 110, LibreHardware));
         this.Controls.Add(CrearBoton("Estado de discos", 250, 145, CrystalDiskinfo));
-        this.Controls.Add(CrearBoton("Pruebas GPU", 250, 180, CrystalDiskmark));
+        this.Controls.Add(CrearBoton("FurMark (Pruebas GPU)", 250, 180, FurMark));
         this.Controls.Add(CrearBoton("CPU-Z", 250, 215, CPUZ));
         this.Controls.Add(CrearBoton("Actualización de drivers", 250, 250, Drivers));
         
@@ -92,8 +92,8 @@ public partial class Form1 : Form
 
 
         //Botones Seguridad y soporte
-        this.Controls.Add(CrearBoton("Antivirus Kaspersky", 460, 110, Kapersky));
-        this.Controls.Add(CrearBoton("ADWMalwarebytes", 460, 145, Malware));
+        this.Controls.Add(CrearBoton("Antivirus ClamWin", 460, 110, ClamWin));
+        this.Controls.Add(CrearBoton("ClamAV Escáner", 460, 145, ClamAV));
         this.Controls.Add(CrearBoton("Eliminar Drivers Grafica(Cuidado)", 460, 180, GraficoElim));
         this.Controls.Add(CrearBoton("Recuperar contraseñas navegador", 460, 215, Contras));
         this.Controls.Add(CrearBoton("Recuperar Archivos (PhotoRec)", 460, 250, RecuperarArchivos));

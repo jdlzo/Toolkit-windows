@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -7,9 +7,9 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     
-    <Version>1.0.1.0</Version>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
     <AssemblyTitle>Mantenimiento</AssemblyTitle>
     <Description>Aplicación Mantenimiento</Description>
     <Company>Velmora Coding</Company>
@@ -28,4 +28,4 @@
     <PackageReference Include="Autoupdater.NET.Official" Version="1.9.3" />
   </ItemGroup>
 
-</Project> 
+</Project>
